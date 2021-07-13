@@ -1,0 +1,24 @@
+{
+  "name": "drixit-fullstack-challenge",
+  "version": "1.0.0",
+  "description": "Backend Challenge from Drixit [github.com/drixit/challenge, #Drixit](http://github.com/drixit/challenge).",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js",
+    "dev": "fuser -k 3000/tcp && nodemon index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "cors": "^2.8.5",
+    "js-yaml": "^3.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.10",
+    "swagger-tools": "0.10.1"
+  }
+}
